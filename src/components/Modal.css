@@ -1,0 +1,74 @@
+.modalBackground {
+    top: 0;
+    left: 0%;
+    right: 0%;
+    bottom: 0;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+        
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail1 {
+      display: flex;
+      flex-direction: row;
+  }
+
+    .detailProduct {
+    font-size: 20px ;
+    padding: 2rem;
+    }
+
+    .img1 {
+    height: 250px;
+    width: 250px;
+    padding-left: 1.5rem;
+
+    }

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "image": "./img1.jpeg",
+    "product": "T-Shirt",
+    "bahan": "Katun",
+    "warna": "beige",
+    "harga": "100.000"
+  },
+  {
+    "id": 2,
+    "image": "./img2.jpeg",
+    "product": "T-Shirt",
+    "bahan": "Katun",
+    "warna": "army",
+    "harga": "110.000"
+  },
+  {
+    "id": 3,
+    "image": "./img3.jpeg",
+    "product": "T-Shirt",
+    "bahan": "Katun",
+    "warna": "light brown",
+    "harga": "95.000"
+  }
+ 
+]
